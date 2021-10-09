@@ -1,3 +1,4 @@
+import { FC } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
@@ -9,7 +10,6 @@ import MailIcon from './icons/MailIcon';
 import AccountIcon from './icons/AccountIcon';
 import SettingsIcon from './icons/SettingsIcon';
 import styles from '../styles/Sidebar.module.css';
-import { FC } from 'react';
 
 type Props = {};
 
