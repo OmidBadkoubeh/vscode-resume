@@ -1,7 +1,19 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+import 'src/styles/globals.css';
+
+import { useEffect } from 'react';
+import type { AppProps } from 'next/app';
+
+import Layout from '../components/layout';
+import Head from '../components/head';
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  useEffect(() => {
+    const theme = localStorage.getItem('theme');
+    if (theme) {
+      document.documentElement.setAttribute('data-theme', theme);
+    }
+  }, []);
+
+  return <Component {...pageProps} />;
 }
-export default MyApp
+export default MyApp;
