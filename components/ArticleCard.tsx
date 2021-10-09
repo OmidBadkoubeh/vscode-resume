@@ -1,19 +1,10 @@
+import { FC } from 'react';
 import Image from 'next/image';
+
 import EyeIcon from './icons/EyeIcon';
 import HeartIcon from './icons/HeartIcon';
 import CommentIcon from './icons/CommentIcon';
 import styles from '../styles/ArticleCard.module.css';
-import { FC } from 'react';
-
-type Article = {
-  url: string;
-  cover_image: string;
-  title: string;
-  description: string;
-  page_views_count: number;
-  public_reactions_count: number;
-  comments_count: number;
-};
 
 type Props = {
   article: Article;

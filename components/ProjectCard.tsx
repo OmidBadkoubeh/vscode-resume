@@ -1,15 +1,7 @@
-import Image from 'next/image';
 import { FC } from 'react';
-import styles from '../styles/ProjectCard.module.css';
+import Image from 'next/image';
 
-type Project = {
-  image: string;
-  name: string;
-  description: string;
-  tags: string[];
-  source_code: string;
-  demo: string;
-};
+import styles from '../styles/ProjectCard.module.css';
 
 type Props = {
   project: Project;

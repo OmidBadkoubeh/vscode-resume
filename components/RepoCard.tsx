@@ -1,21 +1,11 @@
+import { FC } from 'react';
+
 import WatchIcon from './icons/WatchIcon';
 import ForkIcon from './icons/ForkIcon';
 import StarIcon from './icons/StarIcon';
 import GithubIcon from './icons/GithubIcon';
 import LinkIcon from './icons/LinkIcon';
 import styles from '../styles/RepoCard.module.css';
-import { FC } from 'react';
-
-type Repo = {
-  name: string;
-  title: string;
-  description: string;
-  watchers: number;
-  forks: number;
-  stargazers_count: number;
-  html_url: string;
-  homepage: string;
-};
 
 type Props = {
   repo: Repo;
