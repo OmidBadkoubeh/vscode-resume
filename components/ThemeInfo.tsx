@@ -7,6 +7,7 @@ type Props = {
   name: string;
   publisher: string;
   theme: string;
+  description: string;
 };
 
 const ThemeInfo: FC<Props> = ({ icon, name, publisher, theme }) => {
