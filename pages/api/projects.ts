@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import data from './projects.json';
 
-export const getProjects = () => {
+export const getProjects = (): Project[] => {
   return data;
 };
 

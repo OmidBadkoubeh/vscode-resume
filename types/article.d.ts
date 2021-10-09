@@ -1,5 +1,5 @@
 type Article = {
-  id: string;
+  id: number;
   url: string;
   cover_image: string;
   title: string;

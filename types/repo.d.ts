@@ -1,5 +1,5 @@
 type Repo = {
-  id: string;
+  id: number;
   name: string;
   title: string;
   description: string;
