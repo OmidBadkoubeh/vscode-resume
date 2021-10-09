@@ -99,7 +99,7 @@ const ContactCode: FC<Props> = () => {
         ;
       </p>
       <p className={styles.line}>
-        &nbsp;&nbsp;codepen:{' '}
+        &nbsp;&nbsp;&nbsp;codepen:{' '}
         <a
           href="https://codepen.io/omidbadkoubeh"
           target="_blank"
