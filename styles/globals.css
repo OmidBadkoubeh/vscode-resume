@@ -37,11 +37,32 @@
   background: rgba(118, 74, 188, 0.25);
 }
 
-.razorpay {
-  border: 0.1rem solid rgb(82, 143, 240);
+.apollo-client {
+  border: 0.1rem solid rgb(89, 27, 190);
 }
-.razorpay:hover {
-  background: rgba(82, 143, 240, 0.25);
+.apollo-client:hover {
+  background: rgba(83, 16, 190, 0.25);
+}
+
+.graphql {
+  border: 0.1rem solid rgb(206, 66, 231);
+}
+.graphql:hover {
+  background: rgba(158, 43, 224, 0.25);
+}
+
+.sass {
+  border: 0.1rem solid rgb(231, 93, 255);
+}
+.sass:hover {
+  background: rgba(227, 69, 255, 0.25);
+}
+
+.react-native {
+  border: 0.1rem solid rgb(93, 151, 245);
+}
+.react-native:hover {
+  background: rgba(87, 148, 247, 0.25);
 }
 
 .material-ui {
