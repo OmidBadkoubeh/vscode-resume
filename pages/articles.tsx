@@ -4,16 +4,16 @@ import ArticleCard from '../components/ArticleCard';
 import styles from '../styles/ArticlesPage.module.css';
 
 type Props = {
-  articles: Article[];
+  articles?: Article[];
 };
 
-const ArticlesPage: NextPage<Props> = ({ articles }) => {
+const ArticlesPage: NextPage<Props> = ({ articles = [] }) => {
   return (
     <>
       <h3>
         Recent Posts from{' '}
         <a
-          href="https://dev.to/itsnitinr"
+          href="https://dev.to/omidbadkoubeh"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.underline}
@@ -21,10 +21,12 @@ const ArticlesPage: NextPage<Props> = ({ articles }) => {
           dev.to
         </a>
       </h3>
+
       <div className={styles.container}>
-        {articles.map((article) => (
-          <ArticleCard key={article.id} article={article} />
-        ))}
+        {articles.length > 0 &&
+          articles?.map((article) => (
+            <ArticleCard key={article.id} article={article} />
+          ))}
       </div>
     </>
   );
