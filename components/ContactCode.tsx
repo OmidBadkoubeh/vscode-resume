@@ -46,7 +46,7 @@ const ContactCode: FC<Props> = () => {
       <p className={styles.line}>
         &nbsp;&nbsp;&nbsp;linkedin:{' '}
         <a
-          href="https://www.linkedin.com/in/nitinranganath/"
+          href="https://www.linkedin.com/in/omidbadkoubeh/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -57,11 +57,11 @@ const ContactCode: FC<Props> = () => {
       {/* <p className={styles.line}>
         &nbsp;&nbsp;&nbsp;twitter:{' '}
         <a
-          href="https://www.twitter.com/iamnitinr"
+          href="https://www.twitter.com/omidbadkoubeh"
           target="_blank"
           rel="noopener noreferrer"
         >
-          iamnitinr
+          omidbadkoubeh
         </a>
         ;
       </p> */}
