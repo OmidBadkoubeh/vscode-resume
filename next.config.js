@@ -7,5 +7,6 @@ module.exports = {
       'avatars.githubusercontent.com',
       'imgur.com',
     ],
+    loader: 'cloudinary',
   },
 };

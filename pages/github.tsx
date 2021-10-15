@@ -59,17 +59,15 @@ const GithubPage: NextPage<Props> = ({ repos, user }) => {
 export const getStaticProps: GetStaticProps<Props> = async () => {
   const githubUsername = process.env.NEXT_PUBLIC_GITHUB_USERNAME || '';
   const userRes = await fetch(`https://api.github.com/users/${githubUsername}`);
-  const user = await userRes.json();
+  const user = (await userRes.json()) ?? {};
 
   const repoRes = await fetch(
     `https://api.github.com/users/${githubUsername}/repos?sort=created_at&per_page=6`
   );
-  const repos = (await repoRes.json()) || [];
+  const repos = (await repoRes.json()) ?? [];
 
   return {
     props: { title: 'GitHub', repos, user },
-    revalidate: 60,
-    notFound: true,
   };
 };
 

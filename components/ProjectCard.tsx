@@ -15,8 +15,6 @@ const ProjectCard: FC<Props> = ({ project }) => {
         height={300}
         width={600}
         alt={project.name}
-        blurDataURL={project.thumbnail}
-        placeholder="blur"
         className={styles.image}
       />
       <div className={styles.content}>
