@@ -10,7 +10,15 @@ type Props = {
 const ProjectCard: FC<Props> = ({ project }) => {
   return (
     <div className={styles.card}>
-      <Image src={project.image} height={300} width={600} alt={project.name} />
+      <Image
+        src={project.image}
+        height={300}
+        width={600}
+        alt={project.name}
+        blurDataURL={project.thumbnail}
+        placeholder="blur"
+        className={styles.image}
+      />
       <div className={styles.content}>
         <h3>{project.name}</h3>
         <p>{project.description}</p>

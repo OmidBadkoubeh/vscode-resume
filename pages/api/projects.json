@@ -2,7 +2,8 @@
   {
     "id": 1,
     "name": "Pizza.ir",
-    "image": "https://imgur.com/tAZotn3.png",
+    "image": "https://res.cloudinary.com/omidb/image/upload/v1634294729/pizza-logo_stthik.jpg",
+    "thumbnail": "https://res.cloudinary.com/omidb/image/upload/c_thumb,w_200,g_face/v1634294729/pizza-logo_stthik.jpg",
     "description": "E-commerce website for making and ordering your custom pizza!",
     "tags": ["react", "apollo-client", "graphql", "sass", "material-ui"],
     "demo": "https://pizza.ir/"
@@ -10,7 +11,8 @@
   {
     "id": 2,
     "name": "Pizza.ir Application",
-    "image": "https://imgur.com/kbGs6zH.png",
+    "image": "https://res.cloudinary.com/omidb/image/upload/v1634294729/pizza-logo_stthik.jpg",
+    "thumbnail": "https://res.cloudinary.com/omidb/image/upload/c_thumb,w_200,g_face/v1634294729/pizza-logo_stthik.jpg",
     "description": "Pizza.ir application with same functionalities with extra focus for mobile clients.",
     "tags": ["react", "react-native", "apollo-client", "graphql", "material-ui"],
     "demo": "https://pizza.ir/app",
@@ -19,7 +21,8 @@
   {
     "id": 3,
     "name": "Pizza.ir Delivery App",
-    "image": "https://imgur.com/kbGs6zH.png",
+    "image": "https://res.cloudinary.com/omidb/image/upload/v1634294729/pizza-logo_stthik.jpg",
+    "thumbnail": "https://res.cloudinary.com/omidb/image/upload/c_thumb,w_200,g_face/v1634294729/pizza-logo_stthik.jpg",
     "description": "Pizza.ir delivery is for delivery men who deliver pizzas to clients.",
     "tags": ["react", "react-native", "apollo-client", "graphql", "material-ui"],
     "demo": "https://pizza.ir/app"
@@ -27,7 +30,8 @@
   {
     "id": 4,
     "name": "Pizza.ir Admin Panel",
-    "image": "https://imgur.com/kbGs6zH.png",
+    "image": "https://res.cloudinary.com/omidb/image/upload/v1634294729/pizza-logo_stthik.jpg",
+    "thumbnail": "https://res.cloudinary.com/omidb/image/upload/c_thumb,w_200,g_face/v1634294729/pizza-logo_stthik.jpg",
     "description": "Pizza.ir admin panel to manage website.",
     "tags": ["react", "apollo-client", "graphql", "material-ui", "sass"],
     "demo": "https://pizza.ir/admin"
