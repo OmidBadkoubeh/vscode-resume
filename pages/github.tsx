@@ -41,7 +41,7 @@ const GithubPage: NextPage<Props> = ({ repos, user }) => {
       </div>
       <h2>6 Latest Updated Repositories</h2>
       <div className={styles.container}>
-        {repos.map((repo) => (
+        {repos?.map((repo) => (
           <RepoCard key={repo.id} repo={repo} />
         ))}
       </div>
