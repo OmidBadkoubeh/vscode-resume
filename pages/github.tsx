@@ -64,11 +64,12 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
   const repoRes = await fetch(
     `https://api.github.com/users/${githubUsername}/repos?sort=created_at&per_page=6`
   );
-  const repos = await repoRes.json();
+  const repos = (await repoRes.json()) || [];
 
   return {
     props: { title: 'GitHub', repos, user },
-    revalidate: 10,
+    revalidate: 60,
+    notFound: true,
   };
 };
 
